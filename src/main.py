@@ -1,11 +1,11 @@
-from utils import square, is_even, celsius_to_fahrenheit, greet
+from utils import square, is_even, celsius_to_fahrenheit, greet, welcome_message
 
 
 def main():
     try:
         name = input("Enter your name: ")
         print(greet(name))
-        
+        print(welcome_message())
         number = int(input("Enter a number: "))
 
         print(f"Square: {square(number)}")
